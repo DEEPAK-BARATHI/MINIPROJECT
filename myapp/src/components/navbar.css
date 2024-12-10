@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0,0, 0, 0.1);
+    border-bottom: 1px solid #d0d3d6;
+}
+
+.logo {
+    font-size: 2.0rem;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.account-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 1000 px; /* This pushes the account button to the far right */
+}
+
+.account-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1px; /* Adds some space between the account button and the upgrade menu */
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 130px; /* Set a width for the dropdown */
+    background-color: rgb(246, 246, 246);
+    border: 1px solid #dee2e6;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 0.5rem 0; /* Add vertical padding for better spacing */
+}
+
+.dropdown-item {
+    display: block;
+    padding: 1rem 1rem; /* Increase horizontal padding for larger items */
+    color: #333;
+    text-decoration: none;
+}
+
+
+.dropdown-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    background-color: #E5E7EB; /* Complete hex color */
+}
+
+.border-t {
+    border-top: 1px solid #dee2e6;
+}
+
+.upgrade-menu {
+    display: flex;
+    align-items: center; /* Ensure alignment of the upgrade button */
+    margin-left:1000px; /* This pushes the upgrade button to the far right */
+}
+
+.upgrade-button {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.upgrade-button:hover {
+    background-color: #218838;
+}
